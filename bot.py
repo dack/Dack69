@@ -9,7 +9,7 @@ from html import escape # Equivalent to htmlspecialchars
 app = Flask(__name__)
 
 # Environment variable for the Bot Token
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("8455305435:AAE5mnDYyMQfhZ26KvkNIl8JteweqBcuCRY")
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
 # --- Helper Functions ---
